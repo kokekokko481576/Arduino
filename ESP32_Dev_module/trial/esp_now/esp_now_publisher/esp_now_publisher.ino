@@ -3,7 +3,7 @@
 #include <esp_wifi.h> 
 
 // ⚠️ここを受信機のMACアドレスに変えてね！！(0xをつけてカンマ区切り)
-uint8_t broadcastAddress[] = {0x00, 0x70, 0x07, 0x0D, 0x80, 0x50};
+uint8_t broadcastAddress[] = {0x68, 0xFE, 0x71, 0x90, 0x6C, 0x78};
 
 // 送信データ構造
 typedef struct struct_message {

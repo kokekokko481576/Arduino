@@ -3,7 +3,7 @@
 // ここを接続してるピン番号に変えてね！
 #define PIN        33 
 // LEDの数
-#define NUMPIXELS  300
+#define NUMPIXELS  3
 
 // NeoPixelの設定（大体このままで動くはず！）
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
